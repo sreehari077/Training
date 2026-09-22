@@ -1,1 +1,24 @@
-{"nbformat":4,"nbformat_minor":0,"metadata":{"colab":{"provenance":[],"authorship_tag":"ABX9TyPS0aFKn07b7pI5EehCqwBW"},"kernelspec":{"name":"python3","display_name":"Python 3"},"language_info":{"name":"python"}},"cells":[{"cell_type":"code","execution_count":4,"metadata":{"colab":{"base_uri":"https://localhost:8080/"},"id":"qGcTSgO4wmLU","executionInfo":{"status":"ok","timestamp":1790063986299,"user_tz":-330,"elapsed":5988,"user":{"displayName":"Sreehari","userId":"01692358868861676087"}},"outputId":"955f2a72-f95e-4056-d391-942264cc996a"},"outputs":[{"output_type":"stream","name":"stdout","text":["Enter First Number: 10\n","Enter Second Number: 20\n","\n","Using temp\n","a = 20\n","b = 10\n","\n","Using comma\n","a = 10\n","b = 20\n","\n","Using + and -\n","a = 20\n","b = 10\n","\n","Using ^\n","a = 10\n","b = 20\n"]}],"source":["a = int(input(\"Enter First Number: \"))\n","b = int(input(\"Enter Second Number: \"))\n","print(\"\\nUsing temp\")\n","temp = a\n","a = b\n","b = temp\n","print(\"a =\", a)\n","print(\"b =\", b)\n","print(\"\\nUsing comma\")\n","a, b = b, a\n","print(\"a =\", a)\n","print(\"b =\", b)\n","print(\"\\nUsing + and -\")\n","a = a + b\n","b = a - b\n","a = a - b\n","print(\"a =\", a)\n","print(\"b =\", b)\n","print(\"\\nUsing ^\")\n","a = a ^ b\n","b = a ^ b\n","a = a ^ b\n","print(\"a =\", a)\n","print(\"b =\", b)"]},{"cell_type":"code","source":[],"metadata":{"id":"OmhKhYrsFxaU"},"execution_count":null,"outputs":[]}]}
+a = int(input("Enter First Number: "))
+b = int(input("Enter Second Number: "))
+print("\nUsing temp")
+temp = a
+a = b
+b = temp
+print("a =", a)
+print("b =", b)
+print("\nUsing comma")
+a, b = b, a
+print("a =", a)
+print("b =", b)
+print("\nUsing + and -")
+a = a + b
+b = a - b
+a = a - b
+print("a =", a)
+print("b =", b)
+print("\nUsing ^")
+a = a ^ b
+b = a ^ b
+a = a ^ b
+print("a =", a)
+print("b =", b)
